@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  background: rgb(0, 46, 108);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 46, 108, 1) 0%,
+    rgba(132, 0, 179, 1) 100%
+  );
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.giphy-search {
+  text-align: center;
+  padding-top: 2rem;
+}
+.search-input {
+  text-align: center;
+}
+.search-button {
+  text-align: center;
+}
+.giphy-container {
+  text-align: center;
+  padding-top: 2rem;
+}
