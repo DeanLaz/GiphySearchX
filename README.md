@@ -10,6 +10,6 @@ Giphy Search Using Giphy API
 - [x] Use Giphy API
 - [x] Style The WebApp
 - [x] Add Header & Add CSS
-- [ ] Download upload File
 - [ ] Foooter with Name & Links
 - [ ] Refactor code
+- [ ] Create Download File Feature
