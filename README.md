@@ -7,6 +7,9 @@ Giphy Search Using Giphy API
 
 ### ToDo List:
 
-- [ ] Upload File
-- [ ] Add Foooter
-- [ ] Link to other projects
+- [x] Use Giphy API
+- [x] Style The WebApp
+- [x] Add Header & Add CSS
+- [ ] Download upload File
+- [ ] Foooter with Name & Links
+- [ ] Refactor code
