@@ -7,7 +7,7 @@ const giphyDiv = document.getElementById("giphy-container");
 const giphyKey = "F3hdmwTeh5VQtMeFRhODHQxNtUT5jzL1";
 
 async function main(searchKeyword) {
-  const URL = `http://api.giphy.com/v1/gifs/search?q=${searchKeyword}&api_key=${giphyKey}&limit=24`;
+  const URL = `http://api.giphy.com/v1/gifs/search?q=${searchKeyword}&api_key=${giphyKey}&limit=25`;
   const response = await fetch(URL);
   const jsonData = await response.json();
   console.log(jsonData);
