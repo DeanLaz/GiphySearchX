@@ -30,7 +30,7 @@ h1 {
   justify-content: center;
   /* flex-flow: row wrap; */
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .search-input {
   font-family: "Montserrat", sans-serif;
