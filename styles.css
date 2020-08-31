@@ -3,29 +3,63 @@
 html {
   font-family: "Montserrat", sans-serif;
   height: 100%;
-  background: rgb(0, 46, 108);
-  background: linear-gradient(
+  background-color: rgb(0, 107, 121);
+  background-image: linear-gradient(
     0deg,
-    rgba(0, 46, 108, 1) 0%,
-    rgba(132, 0, 179, 1) 100%
+    rgb(0, 107, 121) 0%,
+    rgb(0, 0, 0) 100%
   );
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 100;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 134, 175);
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 4px 3px 0px rgba(0, 255, 255, 0.178),
+    9px 8px 0px rgba(0, 114, 129, 0.15);
+  color: rgb(0, 217, 255);
 }
 .giphy-search {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* flex-flow: row wrap; */
+  align-items: center;
   padding-top: 2rem;
 }
 .search-input {
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  padding: 5px 5px;
 }
 .search-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  color: #004642;
   text-align: center;
+  transition: all 0.2s;
+}
+.search-button:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 .giphy-container {
-  text-align: center;
   padding-top: 2rem;
+  padding-left: 1.8rem;
+}
+img {
+  text-align: left;
 }
